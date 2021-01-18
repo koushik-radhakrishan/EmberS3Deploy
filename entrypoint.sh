@@ -42,6 +42,7 @@ echo "Install ember cli"
 npm install -g ember-cli
 if [ "$BOWER" = "true" ]
 then
+  npm install qs -g
   echo "Installing bower"
   npm install -g bower
   bower install --allow-root
